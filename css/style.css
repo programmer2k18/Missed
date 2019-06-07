@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.con{
+    padding-top: 45px;
+    margin-bottom: 9px;
+}
+.data{
+    margin: 0 auto;
+}
+
+/*start why choosing us section*/
+.choose-us .col-md-6, .choose-us .col-sm-12{padding: 0;overflow: hidden}
+.choose-us img{max-width: 100%;max-height: 100%}
+.choose-us .data{background-color:#08526D;color: #f7f7f7;height: 100%;padding-top: 60px;padding-left: 40px}
+.choose-us .data a{margin-bottom: 20px;}
+/*end why choosing us section*/
+
+.copyright{
+    background-color: #262626;
+    color: #EEE;
+    padding: 15px;
+    text-align: center;
+}
+/*start latest posts section */
+.latest-posts{
+    padding: 55px 0;
+    background-color: #f7f7f7
+}
+.latest-posts .container> h1{margin-bottom: 35px;color:#383636;text-align: center}
+.latest-posts .container> p{width: 70%;margin: auto;margin-bottom: 33px;color: #888;line-height: 21px;font-size: 20px;text-align: center}
+.latest-posts .card {
+    -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+            box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transition: box-shadow 0.25s ease-in;
+    -moz-transition: box-shadow 0.25s ease-in;
+    -o-transition: box-shadow 0.25s ease-in;
+    transition: box-shadow 0.25s ease-in;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.latest-posts .card:hover{
+    -webkit-box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.15),-8px 8px 8px 0 rgba(0, 0, 0, 0.15);
+            box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.15),-8px 8px 8px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+.latest-posts{overflow: hidden !important}
+.latest-posts .card img{max-height: 240px;cursor: pointer;}
+.latest-posts .card h5{color:#08526D }
+.latest-posts .card-body h5{color: #262626}
+.latest-posts .card-body .add-data{margin-bottom: 20px;}
+.clearfloat{clear: both;}
+.latest-posts .card-body .add-data .comment{
+    width: 40%;
+    float: right;
+    background-color: #f47b7b;
+    text-align: center;
+    padding: 2px 8px;
+    border-radius: 1em;
+    box-sizing: border-box;
+    
+}
+.latest-posts .card-body .add-data .red{
+
+    background-color: #f47b7b;
+    width: 48%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 2px 8px;
+    border-radius: 1em
+}
+.latest-posts .card-title img{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    margin-right: 9px;
+}
+.latest-posts .card-body .add-data .comment i{color:#f47b7b }
+.latest-posts .card-body p{color: #888;margin-top: 15px;}
+.latest-posts .card .btn-danger{border-radius: .75em;padding: 5px 25px;}
+/*end latest posts section */
+
